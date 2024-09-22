@@ -10,11 +10,8 @@ const App = () => {
 
     
     useEffect(() => {
-        if (response && response.roll_number) {
-            document.title = response.roll_number;  
-        }
-    }, [response]);
-
+        document.title = 'RA2111047010125'; // Replace 'ABCD123' with your actual roll number
+    }, []);
     const handleJsonChange = (e) => {
         const value = e.target.value;
         setJsonInput(value);
