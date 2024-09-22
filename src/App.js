@@ -37,7 +37,7 @@ const App = () => {
         setLoading(true);
         try {
             const parsedInput = JSON.parse(jsonInput);  
-            const result = await fetch('https://bfhl-backend-gamma.vercel.app/bfhl', {
+            const result = await fetch('https://backend-beige-eta.vercel.app/bfhl', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
